@@ -345,12 +345,12 @@ layout: default
   <div class="col">
     <h3>Class names</h3>
     <ul>
-      <li>Keep classes lowercase and use dashes (not underscores or camelCase). Dashes serve as natural breaks in related class (e.g., <code>.btn</code> and <code>.btn-danger</code>).</li>
+      <li>Keep classes camelCase. Dashes, spaces, and underscores don't play well with ExactTarget, so to stay consistent across our platforms, let's just stay camelCase. <strong>Note</strong> - this only applies to class names we add for override styles; Bootstrap helper classes will have to match the documentation to work properly (i.e. - <code>.page-header</code>.</li>
       <li>Avoid excessive and arbitrary shorthand notation. <code>.btn</code> is useful for <em>button</em>, but <code>.s</code> doesn't mean anything.</li>
       <li>Keep classes as short and succinct as possible.</li>
       <li>Use meaningful names; use structural or purposeful names over presentational.</li>
       <li>Prefix classes based on the closest parent or base class.</li>
-      <li>Use <code>.js-*</code> classes to denote behavior (as opposed to style), but keep these classes out of your CSS.</li>
+      <li>Use <code>.js*</code> classes to denote behavior (as opposed to style), but keep these classes out of your CSS.</li>
     </ul>
     <p>It's also useful to apply many of these same rules when creating Sass and Less variable names.</p>
   </div>
